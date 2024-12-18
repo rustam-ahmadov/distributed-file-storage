@@ -1,8 +1,8 @@
 build:
-	go build -o bin/fs
+	@go build -o bin/fs
 
 run: build
-	k./bin/fs
+	@./bin/fs
 
 test:
-	go test ./... -vk
+	go test ./... -v
