@@ -16,7 +16,5 @@ func main() {
 		slog.Error("error from listen: ", err)
 	}
 
-	//fs := NewFileServer(nil, t)
-
 	select {}
 }
